@@ -1,0 +1,11 @@
+{
+  "name": "decision-tree-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --check app.js",
+    "test": "node --test tests/core.test.js",
+    "start": "python -m http.server 8080 --bind 127.0.0.1"
+  }
+}
